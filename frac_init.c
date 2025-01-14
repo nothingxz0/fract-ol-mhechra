@@ -6,7 +6,7 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 15:57:44 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/13 15:29:56 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/13 22:45:50 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static void	init_data(t_fractol *fractol)
 	fractol->color_r = 7;
     fractol->color_g = 3;
     fractol->color_b = 5;
-	fractol->max_iter = 40;
+	fractol->max_iter = 50;
 	fractol->move_x = 0;
 	fractol->move_y = 0;
 }
