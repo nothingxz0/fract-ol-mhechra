@@ -6,11 +6,11 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 21:40:32 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/14 18:07:05 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 double	ft_atod(char *nptr)
 {

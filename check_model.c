@@ -6,11 +6,11 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 23:26:09 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/15 00:32:32 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 void	check_model(t_fractol *fractol, int x, int y)
 {

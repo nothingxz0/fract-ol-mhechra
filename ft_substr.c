@@ -6,11 +6,11 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 11:19:06 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/14 16:19:13 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 size_t	ft_strlen(const char *str)
 {

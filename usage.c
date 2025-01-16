@@ -6,11 +6,11 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 17:46:43 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/14 17:47:13 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 void	print_usage(void)
 {

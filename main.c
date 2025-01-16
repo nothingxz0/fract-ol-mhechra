@@ -6,16 +6,16 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/10 14:32:09 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/14 21:29:04 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/16 13:28:03 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 static int	check_double(int ac, char *str)
 {
 	
-	return (ft_strcmp(str, "mandelbrot") == 0 && ac == 2
+	return ((ft_strcmp(str, "mandelbrot") == 0 && ac == 2)
 			|| ft_strcmp(str, "burning ship") == 0);
 }
 

@@ -6,11 +6,11 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 16:46:53 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/14 18:13:00 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fract-ol.h"
+#include "fractol.h"
 
 void	check_error(char *str1, char *str2, int *flag)
 {
