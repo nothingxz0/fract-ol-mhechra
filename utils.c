@@ -6,7 +6,7 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 17:11:55 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/16 11:28:21 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/17 16:36:55 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ void	my_pixel_put(t_img *img, int x, int y, int color)
 	int		offset;
 	char	*addr;
 
+	addr = img->addr;
 	offset = (y * img->line_len + x * (img->bits_per_pixel / 8));
 	addr = img->addr + offset;
 	*(unsigned int *)addr = color;

@@ -6,7 +6,7 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 23:26:09 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/15 20:12:46 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/16 14:09:27 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ typedef struct s_thread_data {
     t_fractol *fractol;
     int start_y;
     int end_y;
+	long total_iterations;
 } t_thread_data;
 
 void *render_thread(void *arg)
@@ -48,7 +49,7 @@ void render_fractol(t_fractol *fractol)
 	pthread_t threads[THREAD_COUNT];
 	t_thread_data thread_data[THREAD_COUNT];
 	int chunk_size = HEIGHT / THREAD_COUNT;
-	int i;	
+	int i;
 
 	for (i = 0; i < THREAD_COUNT; i++)
 	{
@@ -58,7 +59,7 @@ void render_fractol(t_fractol *fractol)
 		pthread_create(&threads[i], NULL, render_thread, &thread_data[i]);
 	}	
 	for (i = 0; i < THREAD_COUNT; i++)
-		pthread_join(threads[i], NULL);
+        pthread_join(threads[i], NULL);
 	mlx_put_image_to_window(fractol->mlx_connection, fractol->mlx_window, 
 	                       fractol->image.img, 0, 0);
 }

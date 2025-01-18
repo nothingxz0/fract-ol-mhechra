@@ -6,7 +6,7 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 20:51:52 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/16 10:39:55 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/16 23:09:27 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,9 @@ static void	zoom_cursor(t_fractol *fractol, int x, int y, double zoom_factor)
 int	scrole_hook(int keycode, int x, int y, t_fractol *fractol)
 {
 	if (keycode == 5)
-		zoom_cursor(fractol, x, y, 1.08);
+		zoom_cursor(fractol, x, y, 1.1);
 	else if (keycode == 4)
-		zoom_cursor(fractol, x, y, 0.92);
+		zoom_cursor(fractol, x, y, 0.9);
 	render_fractol(fractol);
 	return (0);
 }

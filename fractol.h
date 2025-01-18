@@ -6,7 +6,7 @@
 /*   By: slasfar <slasfar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 15:25:20 by slasfar           #+#    #+#             */
-/*   Updated: 2025/01/16 11:32:38 by slasfar          ###   ########.fr       */
+/*   Updated: 2025/01/18 14:32:17 by slasfar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ void		ft_julia(int x, int y, t_fractol *fractol);
 void		ft_burning_ship(int x, int y, t_fractol *fractol);
 void		check_error(char *str1, char *str2, int *flag);
 void		assign_julia(t_fractol *fractol, char *julia_x, char *julia_y);
-double		ft_atod(char *nptr);
+double		ft_atod(char *nptr, int *flag);
 void		print_usage(void);
 int			handler(int keycode, t_fractol *fractol);
 int			scrole_hook(int keycode, int x, int y, t_fractol *fractol);
